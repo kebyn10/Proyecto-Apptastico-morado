@@ -1,0 +1,430 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hh{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+        background: url("./imagenes/suelo.jpg") no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.mover {
+    display: flex;
+    justify-content: space-around;
+    height: max-content;
+    width: 50%;
+    align-items: stretch;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+.hh img{
+    width: 200px;
+    height: 400px;
+    margin-top: 90px;
+    margin-left: 50px;
+   
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    background: #1E172F;
+}
+
+.link{
+    display: flex;
+    color: #7C7785;
+
+}
+
+.link h3{
+    margin:25px 20px 0px 20px ;
+}
+
+.link button{
+    height: 50PX;
+    margin: 10px;
+    width: 110px;
+    background: linear-gradient(to right,#8640D5 , #047ED5);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+
+.link  .estado{
+    color: #fff;
+}
+.titulo{
+    width: 50%;
+    color: #fff;
+   background: #2e2349;
+   height: auto;
+}
+
+.titulo h2{
+    padding-left:25% ;
+    padding-top: 20%;
+   font-size: 50px;
+  
+    
+}
+
+.titulo p{
+    padding-left:25% ;
+    padding-top: 20px;
+    padding-bottom:30px ;
+}
+
+.botones{
+    display: flex;
+    border: 1px;
+    padding: 5px;
+    width: 260px;
+    margin: 30px 0 50px 25%;
+    border-style: solid ;
+    border-color: #7C7785;
+    border-radius:6px ;
+}
+
+.boton1{
+    color: #c72073;
+    background: #fff;
+    border: none;
+    width: 140px;
+    height: 30px ;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.boton2{
+    border: none;
+    width: 130px;
+    height: 30px ;
+    border-radius: 3px;
+    background: #2e2349;
+    color: #fff;
+    border: 1.6px;
+    border-style: solid;
+    border-color: #fff;
+    
+
+}
+.espacio{
+    height: 60px;
+
+}
+
+.gk{
+    display: flex;
+    align-content: center;
+    padding-top: 30px;
+}
+
+.funcional{
+    width: 100%;
+    height: 400px;
+    background: #F1F2F7;
+    align-content: center;
+}
+.funcional h2{
+    text-align: center;
+}
+
+.funcional h2{
+    color: #e64696;
+    font-size: 60px;
+    padding: 30px;
+    
+}
+.defuncional{
+    margin: 10px 30px 10px 70px;
+}
+
+.defuncional img{
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin:10px 50px 20px 130px;
+}
+.tes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.funcional .defuncional .textos .chulo{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+  
+}
+
+.funcional .defuncional .textos p{
+    margin: 0px;
+}
+
+.funcional .defuncional .textos h4{
+   color: #e64696;
+
+}
+
+.cartas2{
+    background: #1E172F;
+    padding: 30px;
+}
+
+
+.encabezado h2{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.encabezado p{
+    width: 600px;
+    margin: 10px 25% 10px 25%;
+    color: #b5b3b9;
+}
+
+
+.card{
+    background: #fff;
+    width: 260px;
+    font-size: 30px;
+   color: #1E172F;
+   padding-bottom: 20px;
+   border-radius: 5px;
+   margin: 10px;
+
+}
+.gk{
+    display: flex;
+    justify-content: center;
+}
+.card h3{
+    text-align: center;
+    font-size: 20px;
+    color: #1E172F;
+
+}
+
+.card p{
+    font-size: 15px;
+   
+}
+
+
+.filas{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.card ul li{
+  font-size: 17px;
+  list-style: none;
+  
+
+}
+
+.card .textico{
+    text-align: center;
+    font-size: 17px;
+    margin: 10px 50px 10px 50px;
+}
+.card .imagen{
+    display: flex;
+    justify-content: center;
+}
+.card .imagen img{
+    width: 70px;
+    height: 70px;
+}
+
+
+.cards{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+   padding: 10px;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+  
+}
+.boton .rosa{
+    border-radius: 9px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background: #c72073;
+    color: #fff;
+}
+
+.boton .azul{
+    border-radius: 9px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background: #1E172F;
+    color: #fff;
+}
+
+footer{
+    color: #1E172F;
+     display: flex;
+     justify-content: center;
+     height: 50px;
+     padding-top: 35px;
+}
+footer .rosado{
+    color: #c72073;
+}
+
+@media (max-width:1000px) {
+   
+    .hh{
+        height: max-content;
+    }
+}
+
+@media (max-width:772px) {
+   
+    .hh{
+        background: url("./imagenes/suelo.jpg") no-repeat;
+        background-size:cover;
+        background-position: center;
+   
+        
+    
+    }
+
+    .gk  {
+    display: flex;
+    justify-content: center;
+    }
+
+    .botones{
+        width: 200px;
+        margin: 20px 0 40px 25%;
+    }
+    
+   .funcional{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+   }
+
+   
+  
+   .textos {
+    width: 200px;
+    padding-left: 25%;
+    margin: 30px 20px 50px 30px;
+   }
+   .dd{
+    padding: 20px;
+    background: #1E172F;
+    border-radius: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+   }
+
+    .dd img{
+        margin: 20px 50px 20px 30px ;
+    }
+    .encabezado{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .encabezado p{
+        margin: 10px 25% 10px 40px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 25%;
+    }
+    .mover {
+        display: flex;
+        justify-content: space-around;
+        height: max-content;
+        width: 50%;
+        align-items: stretch;
+    }
+
+    
+}
+
+
+@media (max-width:900px) {
+   *{
+    margin: 0%;
+    padding: 0%;
+   }
+
+   .hh{
+    background: url("./imagenes/suelo.jpg") no-repeat;
+    background-size:cover;
+    background-position: center;
+
+    
+
+}
+    .funcional{
+        background: #F1F2F7;
+        align-content: center;
+        background-size:cover;
+        background-position: center;
+        width:  100%;
+       height: max-content;
+       padding-bottom:20px ;
+    }
+    .defuncional{
+        margin: 0;
+    }
+    .encabezado p {
+        width: 400px;
+        margin: 10px 25% 10px 25%;
+        color: #b5b3b9;
+    }
+
+}
+
+
+@media (max-width:654px) {
+   
+    nav{
+        display: flex;
+       flex-direction: column;
+        height: auto;
+        background: #1E172F;
+    }
+    nav .peque{
+        margin-left:40% ;
+    }
+
+    .titulo .botones{
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+
+    .titulo .botones .boton1{
+        margin-bottom: 10px;
+    }
+}
